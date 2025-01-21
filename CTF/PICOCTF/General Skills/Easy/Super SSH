@@ -1,0 +1,2 @@
+1. Connect with ssh with the following syntax: ssh ctf-pico@titan.picoctf.net -p 55319 . Your port my be different
+2. After saving the fingerprint and inserting the password, the flag is displayed and the connection is closed.
