@@ -1,0 +1,5 @@
+1. download the zip and extract the content
+2. extract metadata from it  : exiftool ukn_reality.jpg
+3. At Attribution URL we can see an encoded text which seems base64
+4. Decode it with command echo "<encoded text>" | base64 -decrypt
+5. Submit the flag
