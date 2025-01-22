@@ -1,0 +1,5 @@
+1. Check content of file checksum.txt
+2. run the following command inside directory files:
+     sha256sum * | grep "<value from checksum.txt>"
+3. identify the file which has the same sum and run the following command :
+    bash decrypt.sh files/<identified file>
