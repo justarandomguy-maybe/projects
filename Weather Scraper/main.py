@@ -11,7 +11,6 @@ class Scraper:
 
     def get_data(self):
         if not os.path.exists("results"):
-            # Create the directory
             os.makedirs("results")
         for file in self.files:
             previous_date: int | None = None
